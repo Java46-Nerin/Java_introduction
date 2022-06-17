@@ -9,64 +9,64 @@ import telran.numbers.IntegerPrimitives;
 class IntegerPrimitivesTests {
 
 	@Test
-	void getMaxByte() {
-		assertEquals(Byte.MAX_VALUE,IntegerPrimitives.getMaxByte());
+	void GetMaxByte() {
+		assertEquals(Byte.MAX_VALUE,IntegerPrimitives.GetMaxByte());
 	}
 	@Test
-	void getMinByte() {
-		assertEquals(Byte.MIN_VALUE,IntegerPrimitives.getMinByte());
+	void GetMinByte() {
+		assertEquals(Byte.MIN_VALUE,IntegerPrimitives.GetMinByte());
 	}
 	@Test
-	void getLengthByte() {
-		assertEquals(1, IntegerPrimitives.getLengthByte());
+	void GetLengthByte() {
+		assertEquals(1, IntegerPrimitives.GetLengthByte());
 	}
 	@Test
-	void getMaxChar() {
-		assertEquals(Character.MAX_VALUE,IntegerPrimitives.getMaxChar());
+	void GetMaxChar() {
+		assertEquals(Character.MAX_VALUE,IntegerPrimitives.GetMaxChar());
 	}
 	@Test
-	void getMinChar() {
-		assertEquals(Character.MIN_VALUE,IntegerPrimitives.getMinChar());
+	void GetMinChar() {
+		assertEquals(Character.MIN_VALUE,IntegerPrimitives.GetMinChar());
 	}
 	@Test
-	void getLengthChar() {
-		assertEquals(2, IntegerPrimitives.getLengthChar());
+	void GetLengthChar() {
+		assertEquals(2, IntegerPrimitives.GetLengthChar());
 	}
 	@Test
-	void getMaxShort() {
-		assertEquals(Short.MAX_VALUE,IntegerPrimitives.getMaxShort());
+	void GetMaxShort() {
+		assertEquals(Short.MAX_VALUE,IntegerPrimitives.GetMaxShort());
 	}
 	@Test
-	void getMinShort() {
-		assertEquals(Short.MIN_VALUE,IntegerPrimitives.getMinShort());
+	void GetMinShort() {
+		assertEquals(Short.MIN_VALUE,IntegerPrimitives.GetMinShort());
 	}
 	@Test
-	void getLengthShort() {
-		assertEquals(2, IntegerPrimitives.getLengthShort());
+	void GetLengthShort() {
+		assertEquals(2, IntegerPrimitives.GetLengthShort());
 	}
 	@Test
-	void getMaxInt() {
-		assertEquals(Integer.MAX_VALUE,IntegerPrimitives.getMaxInt());
+	void GetMaxInt() {
+		assertEquals(Integer.MAX_VALUE,IntegerPrimitives.GetMaxInt());
 	}
 	@Test
-	void getMinInt() {
-		assertEquals(Integer.MIN_VALUE,IntegerPrimitives.getMinInt());
+	void GetMinInt() {
+		assertEquals(Integer.MIN_VALUE,IntegerPrimitives.GetMinInt());
 	}
 	@Test
-	void getLengthInt() {
-		assertEquals(4, IntegerPrimitives.getLengthInt());
+	void GetLengthInt() {
+		assertEquals(4, IntegerPrimitives.GetLengthInt());
 	}
 	@Test
-	void getMaxLong() {
-		assertEquals(Long.MAX_VALUE,IntegerPrimitives.getMaxLong());
+	void GetMaxLong() {
+		assertEquals(Long.MAX_VALUE,IntegerPrimitives.GetMaxLong());
 	}
 	@Test
-	void getMinLong() {
-		assertEquals(Long.MIN_VALUE,IntegerPrimitives.getMinLong());
+	void GetMinLong() {
+		assertEquals(Long.MIN_VALUE,IntegerPrimitives.GetMinLong());
 	}
 	@Test
-	void getLengthLong() {
-		assertEquals(8, IntegerPrimitives.getLengthLong());
+	void GetLengthLong() {
+		assertEquals(8, IntegerPrimitives.GetLengthLong());
 	}
 
 }
